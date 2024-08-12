@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'poppins';
+    
+}
+
+body{
+    height: 100vh;
+    /* background: linear-gradient(to bottom right, #7E25B2, #48167B, #19082C, #0F0412); */
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+background-image: linear-gradient(to bottom right, #7E25B2, #48167B, #19082C, #0F0412);
+    background-size: 400% 400%;
+    /* Ensure it covers all sides */
+    animation: rotateGradient 10s linear infinite;
+        /* Delay of 2 seconds before animation starts */
+        place-items: center;
+}
+
+@keyframes rotateGradient {
+    0% {
+        background-position: top left;
+        /* Start from top left */
+    }
+
+    25% {
+        background-position: top right;
+        /* Rotate to top right */
+    }
+
+    50% {
+        background-position: bottom right;
+        /* Rotate to bottom right */
+    }
+
+    75% {
+        background-position: bottom left;
+        /* Rotate to bottom left */
+    }
+
+    100% {
+        background-position: top left;
+        /* Complete the rotation to top left */
+    }
+}
