@@ -3,7 +3,7 @@
 const Success = () => {
   return (
     <div>
-      <p className="text-4xl text-white flex justify-center">Sucess</p>
+      <p className="text-4xl text-white flex justify-center">Success</p>
     </div>
   )
 }
