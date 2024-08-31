@@ -4,7 +4,7 @@ import pinlogo from '../assets/pinpoint.png'
 
 const PinLogo = () => {
   return (
-    <div>
+    <div className='flex justify-center'>
       <img src={pinlogo}></img>
     </div>
   )

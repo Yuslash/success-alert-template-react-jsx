@@ -8,7 +8,7 @@ import HomeButton from "./components/HomeButton"
 const App = () => {
   return (
     <div>
-      <Check/>
+      <Check/>  
       <PinLogo />
       <Success />
       <Comment />
