@@ -3,7 +3,7 @@
 const HomeButton = () => {
 
   const handleClick = () => {
-    window.location.href = 'http://localhost:5173';
+    window.location.href = 'https://billionoillid-registration-page.vercel.app/';
   }
 
   return (
